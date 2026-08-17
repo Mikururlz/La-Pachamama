@@ -1,4 +1,4 @@
-@import "tailwindcss";
+
 :root{--clay:#9f452f;--wine:#3d1717;--sand:#eee4d2;--cream:#f7f1e5;--ink:#241a15;--olive:#65705b}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
