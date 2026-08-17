@@ -1,0 +1,13 @@
+.hero {
+  background-image: linear-gradient(90deg, rgba(32, 15, 10, .76), rgba(32, 15, 10, .18)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Quebrada_de_las_Conchas-_Salta.jpg/1280px-Quebrada_de_las_Conchas-_Salta.jpg');
+}
+.ancestralBand {
+  overflow: hidden; background: #d8b577; color: #6f2c20; padding: 22px 4vw;
+  display: flex; justify-content: space-around; font: 32px Georgia, serif;
+  letter-spacing: .1em; border-block: 1px solid #a57546;
+}
+.ancestralBand span:nth-child(even) { color: #253f3a; }
+.landscape {
+  background-image: linear-gradient(0deg, rgba(25, 13, 8, .58), transparent 55%), url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Ruinas_de_Quilmes_-_Tucum%C3%A1n.jpg/1280px-Ruinas_de_Quilmes_-_Tucum%C3%A1n.jpg');
+}
+.photoCredit { margin: 0; padding: 14px 6vw; background: #1e1713; color: #8c817a; font-size: 9px; letter-spacing: .04em; }
