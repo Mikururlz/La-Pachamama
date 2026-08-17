@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Footer, Logo } from "../page";
 import ProductCatalog from "../components/ProductCatalog";
 
@@ -9,13 +8,12 @@ export default function Productos() {
         <nav className="nav">
           <Logo />
 
-          <Link
+          <a
             className="navLink"
             href="/"
-            prefetch={false}
           >
             Volver al inicio
-          </Link>
+          </a>
         </nav>
 
         <h1>Catálogo</h1>
