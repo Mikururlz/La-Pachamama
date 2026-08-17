@@ -9,8 +9,11 @@ export const WHATSAPP_NUMBER_2 = "5493644716777";
 export const WHATSAPP_DISPLAY_2 = "+54 9 364 471-6777";
 
 // Instagram
-export const INSTAGRAM_URL = "https://instagram.com/";
-export const INSTAGRAM_HANDLE = "";
+export const INSTAGRAM_URL =
+  "https://instagram.com/lapachamamaregionales/";
+
+export const INSTAGRAM_HANDLE =
+  "@lapachamamaregionales";
 
 // Backwards-compatible alias used by the existing footer.
 export const INSTAGRAM = INSTAGRAM_URL;
