@@ -2,9 +2,9 @@ import { defineConfig } from "vite";
 import vinext from "vinext";
 import { nitro } from "nitro/vite";
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [
     vinext(),
-    nitro(),
+    ...(command === "build" ? [nitro()] : []),
   ],
-});
+}));
